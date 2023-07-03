@@ -13,7 +13,7 @@
   align-items: center;
   padding: 2rem;
   /* padding-bottom: 12rem; */
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .content-row {
@@ -69,7 +69,7 @@
   align-items: center;
   padding: 2rem;
   /* padding-bottom: 12rem; */
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .serv-title {
@@ -84,13 +84,13 @@
   font-family: sans-serif;
   margin-left: 20%;
   margin-right: 20%;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 
 .food {
   position: relative;
   margin: 10px;
-  width: 250px;
+  width: 270px;
   height: 400px;
   background-color: rgb(255, 255, 255);
   border-radius: 3rem;
@@ -197,11 +197,12 @@ h4 {
 }
 
 .reviews {
+  /* padding-top: 5rem; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* height: 100vh; */
+  height: 100vh;
 }
 
 .rev-title {
@@ -228,6 +229,8 @@ h4 {
   border-color: #fc7f09;
   margin-left: 15rem;
   margin-right: 15rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px;
 }
 
 .people {
@@ -239,9 +242,36 @@ h4 {
   font-size: 30px;
 }
 
-.containerr {
+/* .containerr {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 2rem;
+} */
+
+.order-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 7rem;
+}
+
+.order {
+  position: relative;
+  color: #fff;
+  margin: 1rem;
+  width: 250px;
+  height: 250px;
+  background-color: #fc7f09;
+  border-radius: 2rem;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px;
+}
+
+.order-icon {
+  padding-top: 0rem;
+  width: auto;
+  height: 100px;
 }

@@ -64,7 +64,7 @@ function Navbar() {
               <li className="nav-item">
                 <Link
                   className="nav-links"
-                  onClick={() => scrollToSection("contact-description")}
+                  onClick={() => scrollToSection("contact")}
                 >
                   CONTACT US
                 </Link>

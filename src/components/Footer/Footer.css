@@ -1,0 +1,86 @@
+.footer-container {
+  background: #fc7f09;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  /* position: fixed; */
+  width: 100%;
+}
+
+.footer-logo {
+  width: 60px;
+  height: 60px;
+  margin-left: 1.5rem;
+}
+
+.footer-title {
+  color: #ffffff;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.footer-social {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+  margin-right: 3rem;
+}
+.fb-icon {
+  margin-right: 1rem;
+}
+
+.in-icon {
+  margin-right: 1rem;
+}
+.foot-title {
+  padding-left: 2rem;
+  font-weight: 600;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* FOR RESPONSIVE */
+
+@media screen and (max-width: 1024px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footer-logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer-social {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer-social {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .footer-logo {
+    display: none;
+  }
+  .footer-social {
+    display: none;
+  }
+}

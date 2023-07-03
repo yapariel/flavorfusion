@@ -7,7 +7,11 @@ import food1 from "../Assets/food1.png";
 import food2 from "../Assets/food2.png";
 import food3 from "../Assets/food3.png";
 import food4 from "../Assets/food4.png";
+import order from "../Assets/order.png";
+import pickup from "../Assets/pickup.png";
+import enjoy from "../Assets/enjoy.png";
 import review from "../Assets/review.png";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
   const ButtonClick = () => {
@@ -104,6 +108,29 @@ const Home = () => {
             </Col>
           </Col>
         </Row>
+        <Row className="order-container">
+          <Col className="order">
+            <img src={order} alt="Food 1" className="order-icon" />
+            <h2>Order Your Food</h2>
+            <h4>
+              Request your preferred meals and beverages to be prepared and made
+              available for you.
+            </h4>
+          </Col>
+          <Col className="order">
+            <img src={pickup} alt="Food 1" className="order-icon" />
+            <h2>Pickup Your Food</h2>
+            <h4>
+              Conveniently collect your delicious meal from the restaurant or
+              takeout counter.
+            </h4>
+          </Col>
+          <Col className="order">
+            <img src={enjoy} alt="Food 1" className="order-icon" />
+            <h2>Enjoy Your Food</h2>
+            <h4>Experience exquisite flavors with each bite.</h4>
+          </Col>
+        </Row>
       </Container>
 
       <Container id="reviews" className="reviews">
@@ -135,6 +162,8 @@ const Home = () => {
           </Row>
         </Row>
       </Container>
+      <Footer />
+      <Container id="contact"></Container>
     </Container>
   );
 };
