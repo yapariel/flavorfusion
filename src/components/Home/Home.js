@@ -57,16 +57,18 @@ const Home = () => {
           </h2>
         </Col>
         <Row className="services-container">
-          <Col className="food">
-            <img src={food1} alt="Food 1" className="plate" />
-            <h2>Leafy Delight</h2>
-            <h4>
-              Fish infused with vibrant leaves for a harmonious blend of flavors
-              and textures
-            </h4>
-            <Col className="buttons">
-              <Button className="price">₱ 999</Button>
-              <Button className="cart">Add to Cart</Button>
+          <Col className="foodtray">
+            <Col className="food">
+              <img src={food1} alt="Food 1" className="plate" />
+              <h2>Leafy Delight</h2>
+              <h4>
+                Fish infused with vibrant leaves for a harmonious blend of
+                flavors and textures
+              </h4>
+              <Col className="buttons">
+                <Button className="price">₱ 999</Button>
+                <Button className="cart">Add to Cart</Button>
+              </Col>
             </Col>
           </Col>
 
@@ -107,7 +109,32 @@ const Home = () => {
               <Button className="cart">Add to Cart</Button>
             </Col>
           </Col>
+          <Col className="food">
+            <img src={food4} alt="Food 1" className="plate" />
+            <h2>Chicken Supreme</h2>
+            <h4>
+              Succulent chicken infused with a luscious tomato glaze for a burst
+              of savory goodness
+            </h4>
+            <Col className="buttons">
+              <Button className="price">₱ 999</Button>
+              <Button className="cart">Add to Cart</Button>
+            </Col>
+          </Col>
+          <Col className="food">
+            <img src={food4} alt="Food 1" className="plate" />
+            <h2>Chicken Supreme</h2>
+            <h4>
+              Succulent chicken infused with a luscious tomato glaze for a burst
+              of savory goodness
+            </h4>
+            <Col className="buttons">
+              <Button className="price">₱ 999</Button>
+              <Button className="cart">Add to Cart</Button>
+            </Col>
+          </Col>
         </Row>
+
         <Row className="order-container">
           <Col className="order">
             <img src={order} alt="Food 1" className="order-icon" />
